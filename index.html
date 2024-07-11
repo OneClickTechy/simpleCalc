@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <header>
+        <h1>Simple Calculator</h1>
+    </header>
+    <main class="container">
+      <h1 id="containerTitle">Result</h1>
+      <select name="operators" id="operators">
+        <option value="+">add(+)</option>
+        <option value="-">subract(-)</option>
+        <option value="*">multiplication(*)</option>
+        <option value="/">divide(/)</option>
+      </select>
+      <input type="number" name="number" id="num1" placeholder="number 1" />
+      <input type="number" name="number" id="num2" placeholder="number 2" />
+      <button type="submit" id="calc">Calculate</button>
+    </main>
+    <footer>Thankyou for using this simple calculator</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
